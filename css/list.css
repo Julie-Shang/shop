@@ -1,0 +1,54 @@
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 235px;
+    width: 70px;
+    height: 32px;
+    padding-left: 15px;
+    line-height: 32px;
+    border-left: 1px solid #b1191a;
+}
+.sk-list {
+    float: left;
+}
+.sk-list ul li {
+    float: left;
+}
+.sk-list ul li a {
+    display: block;
+    line-height: 45px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.sk-con {
+    float: right;
+}
+.sk-con ul li {
+    float: left;
+}
+.sk-con ul li a {
+    display: block;
+    line-height: 45px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk-con ul li:last-child>a::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+.sk-bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 12px;
+    overflow: hidden;
+}
+.sk-bd ul li:hover {
+    border: 1px solid red;
+}
+.sk-bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
